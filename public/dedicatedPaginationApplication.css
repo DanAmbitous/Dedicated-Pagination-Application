@@ -1,3 +1,7 @@
 body {
   background-color: rgb(153, 128, 89);
 }
+
+button {
+  cursor: pointer;
+}

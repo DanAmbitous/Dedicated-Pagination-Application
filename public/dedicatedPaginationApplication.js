@@ -5,6 +5,9 @@ document.addEventListener('click', event => {
     case "next":
       next()
       break
+    case "previous":
+      previous()
+      break
   }
 })
 
@@ -33,5 +36,10 @@ getData(theIndex)
 
 function next() {
   theIndex++
+  getData(theIndex)
+}
+
+function previous() {
+  theIndex--
   getData(theIndex)
 }
